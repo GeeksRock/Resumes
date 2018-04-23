@@ -1,0 +1,87 @@
+/*http://www.colorcombos.com/color-scheme-6883.html*/
+table {
+  width: 90%;
+  margin-left: 10%;
+}
+
+body {
+  font-family: 'Cabin Condensed', sans-serif !important;
+  font-size: medium !important;
+  background-color: #CCCFCC !important;
+}
+
+.boldBlueCenteredText {
+  color: #336699;
+  font-weight: bold;
+  text-align: center;
+}
+
+.normalBlueText {
+  color: #336699;
+  font-weight: normal;
+}
+
+.normalBlackText {
+  color: #000;
+  font-weight: normal;
+}
+
+.boldBlackText {
+  color: #000;
+  font-weight: bold;
+}
+
+.normalDarkGreyText {
+  color: #666666;
+  font-weight: normal;
+}
+
+.boldDarkGreyText {
+  color: #666666;
+  font-weight: bold;
+}
+
+.largeMarginedText {
+  font-size: large;
+  margin-left: 30px;
+}
+
+.smallMarginedText {
+  font-size: large;
+  margin-left: 5px;
+}
+
+.normalMargin {
+  margin-left: 30px;
+}
+
+.smallMargin {
+  margin-left: 5px;
+}
+
+.mediumMargin {
+  margin-left: 20px;
+}
+
+.largeMargin {
+  margin-left: 45px;
+}
+
+.extraLargeMargin {
+  margin-left: 50px;
+}
+
+.normalMediumgreyCenteredText {
+  color: #999999;
+  font-weight: normal;
+  text-align: center;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #999 !important;
+  margin: 1em 0;
+  padding: 0;
+}
