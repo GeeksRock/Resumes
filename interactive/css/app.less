@@ -1,0 +1,145 @@
+@fadedJade: #4A7B6F;
+@geyser: #CCDDDD;
+@yellowGreen: #EEEEE7;
+@hitgray: #9EAEB3;
+@ebonyClay: #242E35;
+
+.display(@display) {
+  display: @display;
+}
+
+.bold(@color) {
+  color: @color;
+  font-weight: bold;
+}
+.bold(@color, @display) {
+  color: @color;
+  font-weight: bold;
+  .display(@display);
+}
+
+.normal(@color) {
+  color: @color;
+  font-weight: normal;
+}
+.normal(@color, @display) {
+  color: @color;
+  font-weight: normal;
+  .display(@display);  
+}
+
+.topLeftPadding {
+  padding-left: 5px;
+  padding-top: 23px;
+}
+
+.header {
+  text-align: center;
+  .bold(@fadedJade);
+}
+
+.subText {
+  text-align: center;
+  .bold(@hitgray);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+body {
+    font-family: 'Source Code Pro';
+}
+table {
+  border: -1px solid @ebonyClay;
+}
+td {
+  border: 1px solid @ebonyClay;
+}
+div {
+  overflow: auto;
+}
+
+.geyserBG{
+  background-color: @geyser;
+}
+.geyserTextBold {
+  .bold(@geyser);
+}
+.geyserTextNormal {
+  .normal(@geyser);
+}
+.geyserHeader {
+  background-color: @geyser;
+  .topLeftPadding;
+}
+.geyserDottedBorder {
+  background-color: @geyser;
+  border: 1px dotted @ebonyClay;
+}
+
+.yellowGreenBG
+{
+  background-color: @yellowGreen;
+}
+.yellowGreenHeader {
+  background-color: @yellowGreen;
+  .topLeftPadding;
+}
+
+.fadedJadeBG {
+  background-color: @fadedJade;
+}
+.fadedJadeTextBold {
+  .bold(@fadedJade);
+}
+.fadedJadeTextNormal {
+  .normal(@fadedJade);
+}
+.fadedJadeHeader {
+  background-color: @fadedJade;
+  .topLeftPadding;
+}
+.fadedJadeBoldDisplay {
+  .bold(@fadedJade, block);
+}
+.fadedJadeBoldDisplayCentered {
+  text-align: center;
+  .bold(@ebonyClay, block);
+  .pointer;
+}
+
+.hitGrayTextBold {
+  .bold(@hitgray); 
+}
+.hitgrayBG {
+  background-color: @hitgray;
+  height: 50;
+}
+.hitgrayHeader {
+  background-color: @hitgray;
+  .topLeftPadding;
+}
+
+.ebonyClayTextBold {
+  .bold(@ebonyClay);
+}
+.ebonyClayTextNormal {
+  .normal(@ebonyClay);
+}
+.ebonyClayTextNormalBlock {
+  .normal(@ebonyClay, block);
+}
+
+.simpleDetails {
+  .normal(@ebonyClay, block);
+}
+.simpleDetailsCentered {
+  text-align: center;
+  .simpleDetails;
+}
+
+.dottedBorder {
+  border: 1px dotted @ebonyClay;
+  padding-left: 5px;
+}
