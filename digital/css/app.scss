@@ -1,0 +1,79 @@
+/*http://www.colorcombos.com/color-scheme-6883.html*/
+table {
+  width: 90%;
+  margin-left: 10%;
+}
+
+$blue: #336699;
+$dark-grey: #666666;
+$medium-grey: #999999;
+$light-grey: #CCCFCC;
+$black: #000;
+
+body {
+  font-family: 'Cabin Condensed', sans-serif !important;
+  font-size: medium !important;
+  background-color: $light-grey !important;
+}
+@mixin boldText($color) {
+	color: $color;
+	font-weight: bold;
+}
+@mixin normalText($color) {
+	color: $color;
+	font-weight: normal;	
+}
+.boldBlueCenteredText {
+	@include boldText($blue);
+	text-align: center;
+}
+.normalBlueText {
+	@include normalText($blue);
+}
+.normalBlackText {
+	@include normalText($black);
+}
+.boldBlackText {
+	@include boldText($black);
+}
+.normalDarkGreyText {
+	@include normalText($dark-grey);
+}
+.boldDarkGreyText {
+	@include boldText($dark-grey);
+}
+.largeMarginedText {
+  font-size: large;
+  margin-left: 30px;
+}
+.smallMarginedText {
+  font-size: large;
+  margin-left: 5px;
+}
+.normalMargin {
+  margin-left: 30px;
+}
+.smallMargin {
+  margin-left: 5px;
+}
+.mediumMargin {
+	margin-left: 20px;
+}
+.largeMargin {
+  margin-left: 45px;
+}
+.extraLargeMargin {
+  margin-left: 50px;
+}
+.normalMediumgreyCenteredText {
+	@include normalText($medium-grey);
+	text-align: center;
+}
+hr { 
+  display: block; 
+  height: 2px;
+  border: 0; 
+  border-top: 1px solid #999 !important;
+  margin: 1em 0; 
+  padding: 0; 
+}
