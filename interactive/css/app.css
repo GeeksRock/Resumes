@@ -1,0 +1,125 @@
+.topLeftPadding {
+  padding-left: 5px;
+  padding-top: 23px;
+}
+.header {
+  text-align: center;
+  color: #4A7B6F;
+  font-weight: bold;
+}
+.subText {
+  text-align: center;
+  color: #9EAEB3;
+  font-weight: bold;
+}
+.pointer {
+  cursor: pointer;
+}
+body {
+  font-family: 'Source Code Pro';
+}
+table {
+  border: -1px solid #242E35;
+}
+td {
+  border: 1px solid #242E35;
+}
+div {
+  overflow: auto;
+}
+.geyserBG {
+  background-color: #CCDDDD;
+}
+.geyserTextBold {
+  color: #CCDDDD;
+  font-weight: bold;
+}
+.geyserTextNormal {
+  color: #CCDDDD;
+  font-weight: normal;
+}
+.geyserHeader {
+  background-color: #CCDDDD;
+  padding-left: 5px;
+  padding-top: 23px;
+}
+.geyserDottedBorder {
+  background-color: #CCDDDD;
+  border: 1px dotted #242E35;
+}
+.yellowGreenBG {
+  background-color: #EEEEE7;
+}
+.yellowGreenHeader {
+  background-color: #EEEEE7;
+  padding-left: 5px;
+  padding-top: 23px;
+}
+.fadedJadeBG {
+  background-color: #4A7B6F;
+}
+.fadedJadeTextBold {
+  color: #4A7B6F;
+  font-weight: bold;
+}
+.fadedJadeTextNormal {
+  color: #4A7B6F;
+  font-weight: normal;
+}
+.fadedJadeHeader {
+  background-color: #4A7B6F;
+  padding-left: 5px;
+  padding-top: 23px;
+}
+.fadedJadeBoldDisplay {
+  color: #4A7B6F;
+  font-weight: bold;
+  display: block;
+}
+.fadedJadeBoldDisplayCentered {
+  text-align: center;
+  color: #242E35;
+  font-weight: bold;
+  display: block;
+}
+.hitGrayTextBold {
+  color: #9EAEB3;
+  font-weight: bold;
+}
+.hitgrayBG {
+  background-color: #9EAEB3;
+  height: 50;
+}
+.hitgrayHeader {
+  background-color: #9EAEB3;
+  padding-left: 5px;
+  padding-top: 23px;
+}
+.ebonyClayTextBold {
+  color: #242E35;
+  font-weight: bold;
+}
+.ebonyClayTextNormal {
+  color: #242E35;
+  font-weight: normal;
+}
+.ebonyClayTextNormalBlock {
+  color: #242E35;
+  font-weight: normal;
+  display: block;
+}
+.simpleDetails {
+  color: #242E35;
+  font-weight: normal;
+  display: block;
+}
+.simpleDetailsCentered {
+  text-align: center;
+  color: #242E35;
+  font-weight: normal;
+  display: block;
+}
+.dottedBorder {
+  border: 1px dotted #242E35;
+  padding-left: 5px;
+}
